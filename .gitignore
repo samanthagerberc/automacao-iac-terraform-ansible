@@ -1,0 +1,4 @@
+# Evitar arquivos grandes
+.terraform/
+terraform.tfstate*
+chave-terraform.pem
