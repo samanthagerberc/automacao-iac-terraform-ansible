@@ -2,3 +2,4 @@
 .terraform/
 terraform.tfstate*
 chave-terraform.pem
+terraform-aws/chave-terraform.pem
