@@ -1,0 +1,9 @@
+---
+- name: Instalar IIS no Windows Server
+  hosts: windows
+  gather_facts: no
+  tasks:
+    - name: Instalar IIS
+      win_feature:
+        name: Web-Server
+        state: present
